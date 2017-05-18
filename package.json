@@ -1,0 +1,16 @@
+{
+    "name": "nodets",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "supervisor -w build ./build/app.js",
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^7.0.18",
+        "express": "^4.15.2"
+    }
+}
